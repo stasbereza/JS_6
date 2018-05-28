@@ -32,7 +32,6 @@ Javascript
 
 /*
 * Класс, объекты которого описывают параметры гамбургера. 
-* 
 * @constructor
 * @param {String} size - Размер
 * @param {String} stuffing - Начинка
@@ -82,7 +81,6 @@ Hamburger.prototype.addTopping = function (topping) { ... }
 
 /*
  * Убрать topping, при условии, что она ранее была добавлена
- * 
  * @param {String} topping - Тип добавки
  */
  
@@ -90,31 +88,30 @@ Hamburger.prototype.removeTopping = function (topping) { ... }
 
 /*
  * Получить список toppings
- *
- * @return {Array} - Массив добавленных topping, содержит значения констант
- *                   Hamburger.TOPPING_*
+ * @return {Array} - Массив добавленных topping, содержит значения констант Hamburger.TOPPING_*
  */
  
 Hamburger.prototype.getToppings = function () { ... }
 
 /*
  * Узнать размер гамбургера
- *
  * @return {String} - размер гамбургера
  */
+ 
 Hamburger.prototype.getSize = function () { ... }
 
 /*
  * Узнать начинку гамбургера
- *
  * @return {String} - начинка гамбургера
  */
+ 
 Hamburger.prototype.getStuffing = function () { ... }
 
 /*
  * Узнать цену гамбургера
  * @return {Number} - Цена в деньгах
  */
+ 
 Hamburger.prototype.calculatePrice = function () { ... }
 
 /*
@@ -123,7 +120,6 @@ Hamburger.prototype.calculatePrice = function () { ... }
  */
  
 Hamburger.prototype.calculateCalories = function () { ... }
-
 
 /* 
   Переданную информацию о параметрах гамбургера 
