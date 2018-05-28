@@ -37,6 +37,7 @@ Javascript
 * @param {String} size - Размер
 * @param {String} stuffing - Начинка
 */
+
 function Hamburger({ size, stuffing }) { ... } 
 
 /* Размеры, виды начинок и добавок добавить как статические свойства класса */
@@ -74,9 +75,9 @@ Hamburger.TOPPINGS = {
 /*
 * Добавить topping к гамбургеру. Можно добавить несколько
 * topping, при условии, что они разные.
-* 
 * @param {String} topping - Тип добавки
 */
+
 Hamburger.prototype.addTopping = function (topping) { ... }
 
 /*
@@ -84,6 +85,7 @@ Hamburger.prototype.addTopping = function (topping) { ... }
  * 
  * @param {String} topping - Тип добавки
  */
+ 
 Hamburger.prototype.removeTopping = function (topping) { ... }
 
 /*
@@ -92,6 +94,7 @@ Hamburger.prototype.removeTopping = function (topping) { ... }
  * @return {Array} - Массив добавленных topping, содержит значения констант
  *                   Hamburger.TOPPING_*
  */
+ 
 Hamburger.prototype.getToppings = function () { ... }
 
 /*
@@ -116,9 +119,9 @@ Hamburger.prototype.calculatePrice = function () { ... }
 
 /*
  * Узнать калорийность
- *
  * @return {Number} - Калорийность в калориях
  */
+ 
 Hamburger.prototype.calculateCalories = function () { ... }
 
 
